@@ -1,0 +1,34 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    text-align: center;
+    margin: auto;
+}
+.label{
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+}
+h4{
+    display: inline-block;
+}
+#blue_label{
+    background-color: rgba(54, 162, 235, 0.9);
+    border: 1px solid rgba(54, 162, 235, 1);   
+}
+#red_label{
+    background-color: rgba(255, 99, 132, 0.9);
+    border: 1px solid rgba(255, 99, 132, 1);   
+}
+#yellow_label{
+    background-color: rgba(255, 205, 86, 0.9);
+    border: 1px solid rgba(255, 205, 86, 1);   
+}
+.chart_container{
+    display: inline-block;
+}
+.pie_chart_container {
+    width: 250px;
+    height: 250px;
+}
